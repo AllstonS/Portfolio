@@ -1,0 +1,103 @@
+
+  *,*:after,*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body{
+  background: url("images/swirlly.jpg");
+  }
+
+  .blocks{
+  list-style-type: none;
+  width:95vw;
+  margin: 100px auto;
+  }
+
+  .blocks > li{
+  float: left;
+  }
+
+  .wrapper{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-left: 10vw;
+  /*border: 1px solid black;*/
+  }
+
+  .wrapper:after{
+  content: '';
+  position: absolute;
+  width: 95%;
+  height: 5%;
+  background: rgba(10,10,10,0.4);
+  display: block;
+  top: 140%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0 0 25px 5px rgba(10,10,10,0.4);
+  }
+
+  .cube{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+    -webkit-transform-style: preserve-3d;
+  -webkit-transform : rotateY(0deg) rotateX(-5deg) rotateZ(0deg);
+  -webkit-transition: 0.4s;
+  }
+
+  .cube:hover{
+  -webkit-transform: rotateY(-5deg) rotateX(-5deg)  rotateZ(0deg);
+  }
+
+
+  .cube div{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+
+  }
+
+  .front{
+  background-color: #393935;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: rotateY(0deg) translateZ(125px);
+    p {
+      text-align:center;
+      color:white;
+      font-size: 2.5em;
+      margin-top:30%;
+    }
+  }
+  .behance .front{
+  background-image : url('http://pulsemarketing.com.au/blog/wp-content/uploads/2013/09/behance-logo-grey.png');
+  }
+
+  .dribbble .front{
+  background-color: #444444;
+  background-image: url('http://allanpeters.com/wp-content/uploads/dribbble-logo.jpg');
+  }
+
+  .right{
+
+  background:#2D9AD2;
+  -webkit-transform: rotateY(90deg) translateZ(125px) ;
+  }
+
+  .dribbble .right{
+  background: #EF528E;
+  }
+
+  .top{
+  background: rgb(20,20,20);
+  -webkit-transform: rotateX(90deg) translateZ(125px);
+  }
