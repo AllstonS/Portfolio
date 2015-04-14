@@ -5,60 +5,76 @@
   <title>Allston Schwartz</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet"  href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='//cdn.jsdelivr.net/devicons/1.4.0/css/devicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
-  <div class="container">
-    <ul class="blocks">
-      <li>
-      <section class="wrapper about">
-      <div class="cube">
-          <a href="Bio">
-        <div class="front">
-          <p>About</p>
+<body >
+
+    <!-- HEADER -->
+  <div class="container-fluid">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h1 class="name">Allston Schwartz</h1>
+      <h3 class="title">Front End Developer</h3>
+    </div>
+
+
+
+                          <!-- SOCIAL BAR-->
+      <div class="container-social">
+        <div class="row row-centered">
+          <ul class="social">
+           <li><a class="twitter" href="http://twitter.com/a11star" data-username="allston"><i class="fa fa-twitter-square fa-5x"></i></a>
+            <li><a class="linkedin.com/in/allstonschwartz" href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" data-username=""><i class="fa fa-linkedin-square fa-5x"></i></a>
+            <li><a class="github" href="https://github.com/AllstonS"><i class="fa fa-github fa-5x"></i></a>
+            <li><a class="email" href="mailto:jagschwartz@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-5x"></i></a>
+            <li><a class="phone" href="tel8432248492"><i class="fa fa-phone-square fa-5x"></i></a>
+          </ul>
         </div>
-        <div class="right"></div>
-          <div class="top"></div>
-          </a>
+      </div> <!--SOCIAL BAR END-->
+    </div> <!--CONTAINER-FLUID END-->
+
+                <!--ABOUT-->
+
+    <div class="row-about">
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <a href="#">
+          <img src="../images/selfie.jpg" class="selfie">
+        </a>
       </div>
-      </section>
-      </li>
-      <li>
-        <section class="wrapper work">
-          <div class="cube">
-            <a href="work">
-              <div class="front">
-                <p>Work & Tools</p>
-              </div>
-                <div class="right"></div>
-                <div class="top"></div>
-            </a>
-          </div>
-        </section>
-      </li>
-      <li>
-      <section class="wrapper resume">
-      <div class="cube">
-          <a href="resume">
-        <div class="front">
-          <p>Resume</p>
+      <div class="col-sm-8 col-md-8 col-lg-8 col-md-offset-1">
+        <p class="me">Hi. I'm Allston Schwartz. I am a wife, a mom of twin boys, a teacher, and now a lover and creator of code. How lucky am I? I have always pursued the creative path, the one that requires passion and the desire to learn. As a teacher, I enjoyed the interaction with my students and my collegues. I had the opportunity to not only help create and implement cirriculum, I also got to help shape childrens' understanding of themselves and the world around them.
+          However, I was ready to move into something that required more of a brain challenge for me, was still creative and could potentially help others. I researched all types of opportunities and eventually, after trying some on my own, found coding to be my next path. The Iron Yard has been my guide and aid on the first part of this path. I am excited to see where the rest of the path leads me and what I can bring to the path.
+          Please feel free to contact me with any comments or questions. I look forward to hearing from you.</p>
         </div>
-        <div class="right"></div>
-          <div class="top"></div>
-          </a>
       </div>
-      </section>
-      </li>
-    </ul>
 
-  </div>
+          <!--WORK-->
+      <div class="work col-sm-12 col-md-12 col-lg-12">
+        <h2>A Sample of my Work</h2>
+        <div class="project col-sm-3 col-md-3 col-lg-3 col-sm-offset-1">
+          <img src="../images/frontin.png">
+          <p class="description">Frontin' Charles is a site created for front end developers specifically who are looking for jobs in the Charleston area. The application is built using angularjs and bootstrap.</p>
+          <i class="fa fa-laptop"></i>
+        </div>
+        <div class="project col-sm-3 col-md-3 col-lg-3">
+          <img src="../images/dvine.png" alt="">
+          <p class="description">D'vine is my final project. Created using angular, bootstrap and rails, this application is for those who want to find the unique eateries found on Food Network's program, Diver, Drive-Ins, and Dives.</p>
+          <i class="fa fa-laptop"></i>
+        </div>
+        <div class="project col-sm-3 col-md-3 col-lg-3">
+          <img src="../images/chat.png" alt="">
+          <p class="description">Phat Chat is a simple chat application designed using jquery, underscore, and bootstrap.</p>
+          <i class="fa fa-laptop"></i>
+        </div>
 
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="main.js"></script>
+    </div>
 
-</body>
-</html>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

@@ -1,0 +1,149 @@
+/*   .blocks{
+
+  list-style-type: none;
+  width:95vw;
+  margin: 10% auto;
+  margin-top:5%;
+}
+
+.blocks > li{
+  float: left;
+}
+
+.wrapper{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-left: 10vw;
+border: 1px solid black;
+}
+
+.wrapper:after{
+  content: '';
+  position: absolute;
+  width: 95%;
+  height: 5%;
+  background: rgba(10,10,10,0.4);
+  display: block;
+  top: 120%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0 0 25px 5px rgba(10,10,10,0.4);
+}
+
+.cube{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform : rotateY(0deg) rotateX(-5deg) rotateZ(0deg);
+  -webkit-transition: 0.4s;
+}
+
+.cube:hover{
+-webkit-transform: rotateY(-5deg) rotateX(-5deg)  rotateZ(0deg);
+}
+
+.cube div{
+  position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+.front{
+background-color: #393935;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+-webkit-transform: rotateY(0deg) translateZ(125px);
+
+p{
+   text-align:center;
+   color:white;
+   font-size: 2.5em;
+   margin-top:30%;
+ } */
+/*   }
+
+.right {
+  background:#2D9AD2;
+  -webkit-transform: rotateY(90deg) translateZ(125px) ;
+}
+
+.right{
+  background: #EF528E;
+}
+
+.top{
+background: rgb(20,20,20);
+-webkit-transform: rotateX(90deg) translateZ(125px);
+}
+ */
+
+
+
+
+<!--WORK-->
+<div class="work col-sm-12 col-md-12 col-lg-12">
+<h2>A Sample of my Work</h2>
+<div class="project col-sm-3 col-md-3 col-lg-3 col-sm-offset-1">
+<img src="../images/frontin.png">
+</div>
+<div class="project col-sm-3 col-md-3 col-lg-3">
+<img src="../images/dvine.png" alt="">
+</div>
+<div class="project col-sm-3 col-md-3 col-lg-3">
+<img src="../images/chat.png" alt="">
+</div>
+
+
+<!--TOOLS-->
+<div class="tools col-sm-12 col-md-12 col-lg-12">
+<h3>Tools of the Trade</h3>
+<div class="styling col-sm-6 col-md-6 col-lg-6">
+
+<!--STYLING-->
+
+<h3>STYLING</h3>
+<div class="col-sm-2 col-md-2 col-lg-2 col-md-offset-3">
+<img class="icon" src="../images/icons/html.jpeg">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+  <img class="icon" src="../images/icons/css.jpeg">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+  <img class="icon" src="../images/icons/sass.png">
+</div>
+</div>
+
+    <!--JAVASCRIPT-->
+
+<div class="js col-sm-6 col-md-6 col-lg-6">
+<h3>JAVASCRIPT</h3>
+
+<div class="col-sm-2 col-md-2 col-lg-2">
+<img class="icon" src="../images/icons/redang.jpeg">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+<img class="icon" src="../images/icons/backbone.png">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+<img class="icon" src="../images/icons/jquery.png">
+</div>
+</div>
+<!-- BOOTSTRAP & BOWER-->
+
+<div class="col-sm-12 col-md-12 col-lg-12 col-md-offset-5">
+<p></p>
+<div class="col-sm-2 col-md-2 col-lg-2">
+<img src="../images/icons/bower.jpeg">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+<img class="icon" src="../images/icons/bootstrap.png">
+</div>
+</div>
+</div>
+</div>
