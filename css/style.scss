@@ -86,9 +86,9 @@
     text-align: right;
     color: #ea3131;
   }
-  .selfie  {
+  .selfie {
     margin-left: 15%;
-    width:60%;
+    width:45%;
   }
 
     /*WORK*/
@@ -96,7 +96,7 @@
     width:100%;
 }
   #container {
-    background: urp("../images/gray.jpg");
+    background: url("../images/gray.jpg");
   }
   .work {
     margin-top:5%;
@@ -106,15 +106,38 @@
     text-align:center;
     font-size:1.5em;
   }
+
+  .sample {
+    font-family: 'Quicksand', sans-serif;
+    margin:5% 0 5% 0;
+    text-shadow: 0.1em .1em white;
+
+  }
   .project {
     margin-right:2%;
   }
 
   .icon {
     list-style:none;
+    li {
+      display:inline-block;
+    }
+    .github {
+      color:black;
+    }
   }
+
+  .project > img {
+    margin-bottom:5%;
+  }
+
+  .image {
+    border:2px solid white;
+  }
+
   .description {
-    color:gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
   }
 
   /*RESUME*/
