@@ -64,9 +64,12 @@
   .row-about {
     width:100%;
     margin-top:6%;
+
   }
 
-  .selfie {
+  .selfie  {
+    margin-left: 15%;
+    width:60%;
     border-radius:15px;
   }
   .me, .me-too, .and-me, .resume, {
@@ -86,10 +89,7 @@
     text-align: right;
     color: #ea3131;
   }
-  .selfie  {
-    margin-left: 15%;
-    width:60%;
-  }
+
 
     /*WORK*/
   .me {
@@ -105,40 +105,60 @@
     width:100%;
     text-align:center;
     font-size:1.5em;
+
+    h2{
+      font-family: 'Quicksand', sans-serif;
+      color:white;
+      text-shadow:0.1em 0.1em black;
+      margin-top:2%;
+      margin-bottom:2%;
+    }
   }
   .project {
     margin-right:2%;
+
+    img{
+      box-shadow:10px 10px 5px #888888;
+      border:2px solid white;
+    }
   }
 
-  .icon {
-    list-style:none;
-  }
   .description {
-    color:gray;
+    color:black;
+    margin-top: 5%;
+  }
+
+   .icon > li {
+    display:inline-block;
+    color:black;
+    margin-right:2%;
   }
 
   /*RESUME*/
   .school {
-    font-size:1em;
+    font-size:1.2em;
   }
 
-  .earn {
-    font-size: .75em;
+  .earn, .date {
+    font-size: 1.0em;
   }
 
-  .date {
-    font-size: .60em;
-  }
   #education {
-    margin-left: 5%;
-    text-align:left
+    margin-left: 3%;
+    text-align:left;
+    font-size:1.5em;
   }
 
-  .edu-list, .experience {
+
+  .edu-list, {
     margin:0;
     list-style:none;
+    display:inline-block;
   }
 
+  .experience {
+    list-style:none;
+  }
   .place {
     text-align:left;
     margin-left:8%;
@@ -146,12 +166,12 @@
 
   .task {
     text-align:left;
-    margin-left:20%;
+    margin-left:10%;
   }
   .detail {
     font-size: 1em;
     text-align:left;
-    margin-left:12%;
+    margin-left:10%;
   }
 
   #end {
