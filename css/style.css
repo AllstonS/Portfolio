@@ -55,6 +55,8 @@ ul > .social {
   margin-top: 6%; }
 
 .selfie {
+  margin-left: 15%;
+  width: 60%;
   border-radius: 15px; }
 
 .me, .me-too, .and-me, .resume {
@@ -71,16 +73,12 @@ ul > .social {
   text-align: right;
   color: #ea3131; }
 
-.selfie {
-  margin-left: 15%;
-  width: 45%; }
-
 /*WORK*/
 .me {
   width: 100%; }
 
 #container {
-  background: url("../images/gray.jpg"); }
+  background: urp("../images/gray.jpg"); }
 
 .work {
   margin-top: 5%;
@@ -89,48 +87,46 @@ ul > .social {
   width: 100%;
   text-align: center;
   font-size: 1.5em; }
-
-.sample {
-  font-family: 'Quicksand', sans-serif;
-  margin: 5% 0 5% 0;
-  text-shadow: 0.1em .1em white; }
+  .work h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+    margin-top: 2%;
+    margin-bottom: 2%; }
 
 .project {
   margin-right: 2%; }
-
-.icon {
-  list-style: none; }
-  .icon li {
-    display: inline-block; }
-  .icon .github {
-    color: black; }
-
-.project > img {
-  margin-bottom: 5%; }
-
-.image {
-  border: 2px solid white; }
+  .project img {
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid white; }
 
 .description {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: black; }
+  color: black;
+  margin-top: 5%; }
+
+.icon > li {
+  display: inline-block;
+  color: black;
+  margin-right: 2%; }
 
 /*RESUME*/
 .school {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
-.earn {
-  font-size: .75em; }
-
-.date {
-  font-size: .60em; }
+.earn, .date {
+  font-size: 1.0em; }
 
 #education {
-  margin-left: 5%;
-  text-align: left; }
+  margin-left: 3%;
+  text-align: left;
+  font-size: 1.5em; }
 
-.edu-list, .experience {
+.edu-list {
   margin: 0;
+  list-style: none;
+  display: inline-block; }
+
+.experience {
   list-style: none; }
 
 .place {
@@ -139,12 +135,12 @@ ul > .social {
 
 .task {
   text-align: left;
-  margin-left: 20%; }
+  margin-left: 10%; }
 
 .detail {
   font-size: 1em;
   text-align: left;
-  margin-left: 12%; }
+  margin-left: 10%; }
 
 #end {
   margin-bottom: 5%; }
