@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     width:100%;
   }
@@ -94,7 +94,10 @@
     /*WORK*/
   .me {
     width:100%;
+    font-family: 'Pacifico', cursive;
+    font-size:2.5em;
 }
+
   #container {
     background: urp("../images/gray.jpg");
   }
@@ -143,6 +146,10 @@
     font-size: 1.0em;
   }
 
+  #education, .place {
+    color:red;
+  }
+
   #education {
     margin-left: 3%;
     text-align:left;
@@ -156,6 +163,9 @@
     display:inline-block;
   }
 
+  .job {
+    margin-bottom:3%;
+  }
   .experience {
     list-style:none;
   }
@@ -169,7 +179,7 @@
     margin-left:10%;
   }
   .detail {
-    font-size: 1em;
+    font-size: .75em;
     text-align:left;
     margin-left:10%;
   }
