@@ -8,12 +8,13 @@ body {
 
 .container-fluid {
   background: url("../images/swirlly.jpg"); }
-
+/*HEADER*/
 .name {
   margin-top: 3%;
-  font-size: 3em; }
+  font-size: 3.50em; }
 
 .name, .title {
+    text-shadow: 0.05em 0.05em #006699;
   text-align: center;
   color: white;
   font-family: 'Quicksand', sans-serif; }
@@ -24,7 +25,8 @@ body {
 
 ul > .social {
   margin-top: 15%;
-  margin-left: 25%; }
+  margin-left: 25%;
+}
 
 .social > li {
   margin-top: 2%;
@@ -41,7 +43,8 @@ ul > .social {
   transform: scale(0.5, 0.5);
   background-position: center center;
   border: 0;
-  -webkit-transition: all .2s ease-in-out; }
+  -webkit-transition: all .2s ease-in-out;
+ }
 
 /*ABOUT*/
 .row-about {
@@ -49,10 +52,13 @@ ul > .social {
   margin-top: 6%; }
 
 .selfie {
+  margin-top: 15%;
   margin-left: 15%;
   width: 60%;
   border-radius: 15px; }
-
+.about-me {
+  margin-top: 4%;
+}
 .me {
   width: 100%;
   font-family: 'Pacifico', cursive;
@@ -71,7 +77,7 @@ ul > .social {
 .mobile-title {
   margin-bottom: 0; }
 
-/*WORK*/
+/*PROJECTS*/
 #container {
   background: url("../images/gray.jpg"); }
 
@@ -82,10 +88,11 @@ ul > .social {
   width: 100%;
   text-align: center;
   font-size: 1.5em; }
-  .work h2 {
+
+.work h2 {
     font-family: 'Quicksand', sans-serif;
     color: white;
-    text-shadow: 0.1em 0.1em black;
+    text-shadow: 0.05em 0.05em black;
     margin-top: 2%;
     margin-bottom: 2%; }
 
@@ -102,7 +109,8 @@ ul > .social {
 .icon > li {
   display: inline-block;
   color: black;
-  margin-right: 2%; }
+  margin-right: 2%;
+ }
 
 /*RESUME*/
 .container-fluid-too {
@@ -116,6 +124,7 @@ ul > .social {
   margin-top: 2%; }
 
 .content {
+  margin-left: 2%;
   font-size: 1.5em;
   margin-bottom: 3%;
   margin-right: 10%; }
@@ -132,6 +141,9 @@ h4 {
 hr {
   margin: .5%; }
 
+.icon{
+  margin-left: 2%;
+}
 h3 > .myname {
   font-color: gray;
   font-size: 1.5em; }
@@ -139,7 +151,8 @@ h3 > .myname {
 .school {
   margin-left: 0;
   font-size: 2em;
-  font-color: red; }
+  color: red;
+}
 
 .earn, .date {
   font-size: 1.5em; }
@@ -148,28 +161,31 @@ h3 > .myname {
   margin: 0;
   list-style: none;
   display: inline-block; }
+}
 
-.job {
-  margin-bottom: 3%; }
-
+.job{
+  margin-bottom: 3%;
+}
 .experience {
   list-style: none; }
 
 .place {
   color: red;
+  margin-left: 1%;
   text-align: left;
-  margin-left: 8%;
-  margin-top: 0; }
+  margin-top: 2%; }
 
 .task {
   font-size: 1.5em;
   text-align: left;
-  margin-left: 10%; }
+  margin-left: 4%;
+ }
 
 .detail {
   font-size: 1.1em;
   text-align: left;
-  margin-left: 10%; }
+  margin-left:2%;
+ }
 
 #end {
   margin-bottom: 5%; }
